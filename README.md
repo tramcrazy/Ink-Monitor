@@ -7,6 +7,7 @@ InkMonitor uses Selenium with a headless browser (I've chosen Chromium) to pull 
 If any ink level is below 10%, the user is sent an SMS message to warn them, and if a cartridge is empty, the user is sent a different message warning them of the empty cartridge. If all cartridges are above 10% no message is sent.
 
 ## Requirements
+Make sure you have all these installed or set up (more info coming when I have more time)
 - Twilio account SID and auth token
 - Local IP address of the MFD
 - Selenium and ChromeDriver
